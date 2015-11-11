@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Wrong Transaction";
+}
+
+@using PagedList.Mvc; 
+@using PagedList; 
+
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<h2>Wrong Transaction</h2>
+<hr />
+<h4>Total Count: @ViewBag.FailedCount</h4>
+<br />
+<table>
+    <tr>
+        <th>
+            Account
+        </th>
+        <th>
+            Amount
+        </th>
+        <th>
+            Currency Code
+        </th>
+        <th>
+            Description
+        </th>
+
+    </tr>
+    @if (ViewBag.OnePageOfTransactions != null)
+    {
+        foreach (var item in ViewBag.OnePageOfTransactions)
+         {
+             <tr>
+                 <td>
+                     @item.Account
+                 </td>
+                 <td>
+                     @item.Amount
+                 </td>
+                 <td>
+                     @item.CurrencyCode
+                 </td>
+                 <td>
+                     @item.Description
+                 </td>
+
+             </tr>
+         }
+    }
+</table>
+ @if (ViewBag.OnePageOfTransactions != null)
+ {
+     @Html.PagedListPager((IPagedList) ViewBag.OnePageOfTransactions, page => Url.Action("Index", new {page}))
+ }

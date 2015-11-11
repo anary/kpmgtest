@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Transaction";
+}
+
+@using PagedList.Mvc;
+@using PagedList;
+
+<h2>Good Transactions</h2>
+
+
+<table>
+    <tr>
+        <th>Account
+        </th>
+        <th>Amount
+        </th>
+        <th>Currency Code
+        </th>
+        <th>Description
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var transaction in ViewBag.OnePageOfTransaction)
+    {
+        <tr>
+            <td>@transaction.Account</td>
+        </tr>
+        <tr>
+            <td>@transaction.Amount</td>
+        </tr>
+        <tr>
+            <td>@transaction.CurrencyCode</td>
+        </tr>
+        <tr>
+            <td>@transaction.Description</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = transaction.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = transaction.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = transaction.Id })
+            </td>
+        </tr>
+    }
+
+
+</table>
