@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Good Transaction";
+}
+
+@using PagedList.Mvc; 
+@using PagedList; 
+
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<h2>Transactions</h2>
+<h4>There are totally @Session["Count"].ToString() records, Successfully loaded @ViewBag.SuccessedCount. You can 
+    check failed records @Html.ActionLink("Here.","BadTrans", "FileUpload") 
+</h4>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>
+            Account
+        </th>
+        <th>
+            Amount
+        </th>
+        <th>
+            Currency Code
+        </th>
+        <th>
+            Description
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in ViewBag.OnePageOfTransactions)
+    {
+        <tr>
+            <td>
+                @item.Account
+            </td>
+            <td>
+                @item.Amount
+            </td>
+            <td>
+                @item.CurrencyCode
+            </td>
+            <td>
+                @item.Description
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {id = item.Id}) |
+                @Html.ActionLink("Delete", "Delete", new {id = item.Id})
+            </td>
+        </tr>
+    }
+</tbody>
+</table>
+@Html.PagedListPager( (IPagedList)ViewBag.OnePageOfTransactions, page => Url.Action("Index", new { page }) )
+
+@Html.ActionLink("Reload File","Index","FileUpload")
+

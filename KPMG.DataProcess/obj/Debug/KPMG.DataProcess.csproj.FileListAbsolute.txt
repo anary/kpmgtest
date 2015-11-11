@@ -1,0 +1,30 @@
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\KPMG.DataProcess.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\KPMG.DataProcess.pdb
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\Excel.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\KPMG.Core.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\EntityFramework.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\KPMG.Core.pdb
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\Excel.pdb
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\EntityFramework.xml
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\obj\Debug\KPMG.DataProcess.csprojResolveAssemblyReference.cache
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\obj\Debug\KPMG.DataProcess.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\obj\Debug\KPMG.DataProcess.pdb
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\KPMG.DataProcess.dll.config
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\KPMG.Data.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\KPMG.Data.pdb
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.DataProcess\bin\Debug\EntityFramework.SqlServer.xml
+C:\KpmgTest\KPMG.DataProcess\obj\Debug\KPMG.DataProcess.csprojResolveAssemblyReference.cache
+C:\KpmgTest\KPMG.DataProcess\obj\Debug\KPMG.DataProcess.dll
+C:\KpmgTest\KPMG.DataProcess\obj\Debug\KPMG.DataProcess.pdb
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\KPMG.DataProcess.dll.config
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\KPMG.DataProcess.dll
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\KPMG.DataProcess.pdb
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\KPMG.Core.dll
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\KPMG.Data.dll
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\KPMG.Core.pdb
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\KPMG.Data.pdb
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\EntityFramework.xml
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\EntityFramework.SqlServer.xml
+C:\KpmgTest\KPMG.DataProcess\bin\Debug\Excel.pdb

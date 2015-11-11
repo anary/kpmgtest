@@ -1,0 +1,19 @@
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\obj\Debug\KPMG.Data.csprojResolveAssemblyReference.cache
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\bin\Debug\KPMG.Data.dll.config
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\bin\Debug\KPMG.Data.dll
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\bin\Debug\KPMG.Data.pdb
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\bin\Debug\EntityFramework.dll
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\bin\Debug\KPMG.Core.dll
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\bin\Debug\KPMG.Core.pdb
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\bin\Debug\EntityFramework.xml
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\obj\Debug\KPMG.Data.dll
+c:\Users\Andy\documents\visual studio 2012\Projects\KPMG.Data\obj\Debug\KPMG.Data.pdb
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andy\Documents\Visual Studio 2012\Projects\KPMG.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\KpmgTest\KPMG.Data\obj\Debug\KPMG.Data.dll
+C:\KpmgTest\KPMG.Data\obj\Debug\KPMG.Data.pdb
+C:\KpmgTest\KPMG.Data\bin\Debug\KPMG.Data.dll.config
+C:\KpmgTest\KPMG.Data\bin\Debug\KPMG.Data.dll
+C:\KpmgTest\KPMG.Data\bin\Debug\KPMG.Data.pdb
+C:\KpmgTest\KPMG.Data\bin\Debug\KPMG.Core.dll
+C:\KpmgTest\KPMG.Data\bin\Debug\KPMG.Core.pdb
