@@ -1,0 +1,26 @@
+﻿@model KPMGTest.Models.UploadViewModel
+@{
+    ViewBag.Title = "Import";
+}
+
+<h2>Import</h2>
+
+@using (Html.BeginForm("Index", "FileUpload", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="center-block">
+    @Html.ValidationSummary(true)
+    <div>Please choose a Excel File to upload:</div>
+    <div>@Html.TextBoxFor(m => m.File, new { type = "file" })</div>
+    <div>@Html.ValidationMessageFor(m => m.File)</div>
+  
+        <div >Is the first row as column name:
+        @Html.CheckBoxFor(m => m.IsFirstRowAsColumnName, new { @checked = "checked" })</div>
+   
+    <div>
+        <input type="submit" value="Submit" class="btn btn-primary"/></div>
+    </div>
+}
+
+
+
+

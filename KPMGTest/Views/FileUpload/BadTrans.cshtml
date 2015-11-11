@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Wrong Transaction";
+}
+
+@using PagedList.Mvc;
+@using PagedList;
+
+<link href="/Content/PagedList.css" rel="stylesheet" type="text/css" />
+<h2>Wrong Transaction</h2>
+<hr />
+<h4>There are  @ViewBag.FailedCount wrong records as following:</h4>
+<br />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Account
+            </th>
+            <th>Amount
+            </th>
+            <th>Currency Code
+            </th>
+            <th>Description
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.OnePageOfTransactions)
+        {
+       
+            <tr>
+                <td>
+                    @item.Account
+                </td>
+                <td>
+                    @item.Amount
+                </td>
+                <td>
+                    @item.CurrencyCode
+                </td>
+                <td>
+                    @item.Description
+                </td>
+
+            </tr>
+        
+        }
+    </tbody>
+</table>
+@Html.PagedListPager((IPagedList)ViewBag.OnePageOfTransactions, page => Url.Action("Index", new { page }))
+
+@Html.ActionLink("Home", "Index", "FileUpload")
+@Html.ActionLink("View imported Data", "Index", "Transaction")

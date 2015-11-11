@@ -1,0 +1,5 @@
+Account,Description,CurrencyCode,Amount
+account1,Company,USD,212220.1
+account2,Microsoft,USD,14567.11
+account3,Google,USD,123141.23
+Error,Facebook,UDS,12112
