@@ -8,10 +8,10 @@ DataProcess: implemented business logic.
 KPMGTest: asp.net MVC structure.
 
 #Database:
-It designed with Entity Framework code first. It leverages DAL generic Repository and unitOfWork design pattern.  I used the localdb as persistence database, which can be set as any other kind, which is set in web.config.
+It designed with Entity Framework code first. It leverages DAL generic Repository and unitOfWork design pattern.  I used the localdb as persistence database, which can be found in web.config.
 
 #File:
-File is supported by XLSX and CSV only.
+File is supported by XLSX and CSV only. It wil save them on the "~/App_Data/uploads".
 
 
 #UI:
